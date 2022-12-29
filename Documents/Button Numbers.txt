@@ -1,0 +1,11 @@
+The following is a list of raw values that comes from the Buzz! Controllers when read through the Joystick APIs. To work out each value, we apply a simple mathematical formula:
+
+Button Code = 2^Button Number / 2
+
+Remembering that the Buzz! Controllers work in reverse order, for example, P1 Red is button 1, yet P1 Blue is button 5 instead of button 2 as is logical
+
+	Red	Blue	Orange	Green	Yellow
+P1	1	16	8	4	2
+P2	32	64	128	256	512
+P3	1024	16384	8192	4096	2048
+P4	32768	524288	262144	131072	65536

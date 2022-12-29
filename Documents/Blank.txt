@@ -1,0 +1,1 @@
+Blank.db is a SQLite Database that contains all the necessary definitions for Buzzmania!'s question editor to function. At this time creation of databases from scratch isn't supported, so use this "template" when creating new question sets for Buzzmania! 2
