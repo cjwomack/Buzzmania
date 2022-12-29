@@ -2,7 +2,7 @@
 A fork of Buzzmania! from Sourceforge (https://sourceforge.net/projects/buzzmania/) created by mr-grayda
 
 ### Copyright
-mr-grayda licensed Buzzmania! under the "Fair License" listed below. However Github does not have "Fair License" listed so I chose Simplified BSD License based on facts listed in https://en.wikipedia.org/wiki/Fair_License
+mr-grayda licensed Buzzmania! under the "Fair License" listed below. However Github does not have "Fair License" listed so I chose Simplified BSD License based on facts listed in https://en.wikipedia.org/wiki/Fair_License. However, I am not a lawyer and would like to reiterate that I have modified the code from mr-grayda.
 
 ```
 <Copyright Information>
@@ -46,3 +46,17 @@ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.[12]
 ```
+
+### Info about code
+mr-grayda's code is Visual Basic 6. It uses the PS2 Buzz controllers with a SQLite 2 Database. (SQLite 2 is deprecated, you can't even read it with Python) I have not yet been able to test with these controllers.
+However, I have made some improvements.
+- Added some click input for some menu items
+- Fixed some bugs in keyboard input. (Eg couldn't use keyboard buttons 1,2,3,4 corresponding when a player number 1 - 4 was not specified. Hence checked for this condition and arbitarily assigned to Player 1)
+- Added a window mode.
+- Attempting to make interface scalable for full screen or half a screen or less.
+
+## Things to do
+- Remember Location and size of previous window
+- Fix keyboard input in quiz mode
+- Test with PS2 Buzz controller
+- Investigate http requests for integration with Python or IPC communication (Of course I could fork some other Python code too). So imagine you have an audience. You poll the audience for the favorite icecream perhaps via Flask or a Google Sheets. The four contestants get points if they guess the most popular or least popular  preference. Eg 12 points if 1 contestant chooses correctly, 6 each for 2 contestants, 4 poitns for 3 contestants and 3 points if all 4 contestants guess correctly.
