@@ -1,6 +1,12 @@
 # Buzzmania!
 A fork of Buzzmania! from Sourceforge (https://sourceforge.net/projects/buzzmania/) created by mr-grayda
 
+Code available at:
+
+Archived code:
+https://web.archive.org/web/20221229163057/https://master.dl.sourceforge.net/project/buzzmania/buzzmania/Alpha%203/Buzz_Alpha3_Source.zip?viasf=1
+https://web.archive.org/web/20221229163408/https://master.dl.sourceforge.net/project/buzzmania/buzzmania/Alpha%203/Buzz_Alpha3_Binary.zip?viasf=1
+
 ### Copyright
 mr-grayda licensed Buzzmania! under the "Fair License" listed below. However Github does not have "Fair License" listed so I chose Simplified BSD License based on facts listed in https://en.wikipedia.org/wiki/Fair_License. However, I am not a lawyer and would like to reiterate that I have modified the code from mr-grayda.
 
