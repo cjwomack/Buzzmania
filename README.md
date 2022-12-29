@@ -48,10 +48,14 @@ POSSIBILITY OF SUCH DAMAGE.[12]
 ```
 
 ### Info about code
-mr-grayda's code is Visual Basic 6. It uses the PS2 Buzz controllers with a SQLite 2 Database. (SQLite 2 is deprecated, you can't even read it with Python) I have not yet been able to test with these controllers.
+mr-grayda's code is Visual Basic 6. It uses the PS2 Buzz controllers with a SQLite 2 Database and questions can be added using mr-grayda question editor.
+
+SQLite 2 is deprecated, you can't even read it with Python but can read it with SQLiteStudio v3.2.1 (https://github.com/pawelsalawa/sqlitestudio/releases/tag/3.2.1).  Found SqLiteStudio to read this from this squestion https://stackoverflow.com/questions/28818741/how-to-convert-sqlite-to-sqlite3.
+
+I have not yet been able to test with PS2 Buzz controllers.
 However, I have made some improvements.
 - Added some click input for some menu items
-- Fixed some bugs in keyboard input. (Eg couldn't use keyboard buttons 1,2,3,4 corresponding when a player number 1 - 4 was not specified. Hence checked for this condition and arbitarily assigned to Player 1)
+- Fixed some bugs in keyboard input. (Eg couldn't use keyboard buttons 1,2,3,4 corresponding when a player number 1 - 4 was not specified. Hence checked for this condition and arbitarily assigned to Player  1)
 - Added a window mode.
 - Attempting to make interface scalable for full screen or half a screen or less.
 
@@ -59,4 +63,4 @@ However, I have made some improvements.
 - Remember Location and size of previous window
 - Fix keyboard input in quiz mode
 - Test with PS2 Buzz controller
-- Investigate http requests for integration with Python or IPC communication (Of course I could fork some other Python code too). So imagine you have an audience. You poll the audience for the favorite icecream perhaps via Flask or a Google Sheets. The four contestants get points if they guess the most popular or least popular  preference. Eg 12 points if 1 contestant chooses correctly, 6 each for 2 contestants, 4 poitns for 3 contestants and 3 points if all 4 contestants guess correctly.
+- Investigate http requests for integration with Python or IPC communication (Of course I could fork some other Python code too instead of using this). So imagine you have an audience. You poll the audience for the favorite icecream perhaps via Flask or a Google Sheets. The four contestants get points if they guess the most popular or least popular  preference. Eg 12 points if 1 contestant chooses correctly, 6 each for 2 contestants, 4 poitns for 3 contestants and 3 points if all 4 contestants guess correctly.
